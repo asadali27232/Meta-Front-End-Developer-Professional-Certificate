@@ -1,0 +1,123 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    color: black;
+    background-color:whitesmoke;
+    padding: 10px;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+.logo {
+    width: 2 1fr;
+    height: 2 1fr;
+}
+
+nav {
+    background-color: white;
+}
+
+nav div {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+}
+
+nav div h2 {
+    text-align: justify;
+    margin: 0 40px;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    flex: 1;
+    margin-top: 20px;
+}
+
+
+.row1 {
+    grid-row: 1;
+    background-color: white;
+    padding: 0px;
+
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.row2 div {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color:black;
+}
+
+.row2 {
+    grid-row: 2;
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+.col1-text {
+    font-size: 12px;
+}
+
+.col2-text {
+    font-size: 12px;
+}
+
+.col3-text {
+    font-size: 12px;
+}
+
+footer {
+    display: grid;
+    color: black;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:white;
+    padding: 20px;
+}
+
+.footer-col1 {
+    text-align: left
+}
+
+.footercol2-text {
+    font-size: 10px;
+    text-align: right;
+}
