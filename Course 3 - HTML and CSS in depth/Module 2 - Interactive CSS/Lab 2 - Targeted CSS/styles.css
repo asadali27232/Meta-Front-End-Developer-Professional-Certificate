@@ -1,25 +1,47 @@
 /* Properties for other selectors */
-*{
+* {
     font-family: Monaco;
 }
 
-.menu, .ll{
+.menu,
+.ll {
     text-align: center;
-    color:#FA9F42;
+    color: #fa9f42;
 }
 
-.ll{
+.ll {
     font-size: 30px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #495E57;
+    border-bottom: 2px solid #495e57;
 }
 
 .menu-container {
     max-width: 800px;
     display: flex;
     justify-content: center;
-    background-color:#E0E0E2;
+    background-color: #e0e0e2;
 }
 
+.section {
+    padding: 10px;
+}
 
-/* Add rules for the steps mentioned below */
+.label {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+    border-top: 2px solid #495e57;
+}
+
+.item-name {
+    margin: 25px;
+    font-size: 12px;
+}
+
+b {
+    float: right;
+    margin-top: -15px;
+    color: darkcyan;
+}
